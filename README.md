@@ -1,6 +1,5 @@
 # Blossom
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
+Front-end design system for [x], the whitelabel localised open innovation platform I am developing for my fyp.
 
 ## Development server
 
