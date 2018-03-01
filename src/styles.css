@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'tachyons.min.css';
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,700');
+
+.sans-serif{
+    font-family: 'Merriweather Sans', 'Source Sans Pro','PT Sans','Calibri','Open Sans', -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif
+}
+
+.serif{
+    font-family: 'Merriweather', 'PT Serif', georgia, times, serif;
+}
