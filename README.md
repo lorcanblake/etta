@@ -1,5 +1,5 @@
-# Blossom
-Front-end design system for 5ervice, the whitelabel localised open innovation platform I am developing for my fyp.
+# Etta
+Front-end design system for 5ervice, the localised open innovation platform.
 
 ## Development server
 

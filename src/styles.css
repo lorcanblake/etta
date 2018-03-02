@@ -3,24 +3,24 @@
 @import 'tachyons.min.css';
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,700');
 
-.blossom-sans-serif{
+.e-sans-serif{
     font-family: 'Merriweather Sans', 'Source Sans Pro','PT Sans','Calibri','Open Sans', -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif
 }
 
-.blossom-serif{
+.e-serif{
     font-family: 'Merriweather', 'PT Serif', georgia, times, serif;
 }
 
-.blossom-shadow{
+.e-shadow{
     box-shadow: 0 0 30px rgba(0,0,0,.15);
 }
 
-.blossom-rotate{ 
+/* .e-rotate{ 
     -webkit-transition: -webkit-transform .8s ease-in-out; 
     transition: transform .8s ease-in-out; 
 }
-.blossom-rotate:hover { 
+.e-rotate:hover { 
     -webkit-transform: rotate(360deg); 
     transform: rotate(360deg); 
-}
+} */
 
