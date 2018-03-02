@@ -1,5 +1,5 @@
 # Blossom
-Front-end design system for [x], the whitelabel localised open innovation platform I am developing for my fyp.
+Front-end design system for 5ervice, the whitelabel localised open innovation platform I am developing for my fyp.
 
 ## Development server
 

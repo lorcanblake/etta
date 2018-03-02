@@ -1,15 +1,17 @@
-<nav class="bg-white flex justify-between bb b--black-10 sans-serif">
-  <a class="link black-70 hover-black no-underline flex items-center pa3" routerLink="/">
-    Blossom
-  </a>
-  <div class="flex-grow pa3 flex items-center">
-    <a class="f6 link dib black dim mr3 mr4-ns">Documentation</a>
-    <a routerLink="components" class="f6 link dib black dim mr3 mr4-ns">Components</a>
-    <a class="f6 link dib black dim mr3 mr4-ns">Sign In</a>
-    <a class="f6 dib black bg-animate hover-bg-white grow no-underline pv2 ph4 br-pill ba">Demo</a>
-  </div>
+<nav class="flex justify-between bb b--black-10 blossom-sans-serif">
+    <a routerLink="/" class="blossom-serif link black-70 hover-black no-underline flex items-center pa3">
+      Blossom 
+    </a>
+    <div class="flex-grow pa3 flex items-center">
+      <a routerLink="styleguide" routerLinkActive="b" class="f6 link dib black dim mr3 mr4-ns">Styleguide</a>
+      <a routerLink="glossary" routerLinkActive="b" class="f6 link dib black dim mr3 mr4-ns">Glossary</a>
+      <a routerLink="components" routerLinkActive="b" class="f6 link dib black dim mr3 mr4-ns">Components</a>
+      <!-- <a class="f6 link dib black dim mr3 mr4-ns"></a> -->
+      <a class="f6 dib black grow no-underline pv2 ph4 mr2 mr3-ns br-pill ba">Demo A</a>
+      <a class="f6 dib black grow no-underline pv2 ph4 br-pill ba">Demo B</a>
+    </div>
 </nav>
 
-<app-components></app-components>
-
+<!-- <app-home></app-home> -->
+<!-- <app-components></app-components> -->
 <router-outlet></router-outlet>
