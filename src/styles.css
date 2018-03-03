@@ -1,8 +1,15 @@
 /* Import Tachyons and Etta */
 
-@import 'css/tachyons.min.css';
-@import 'css/etta-custom.css';
+/* @import 'css/tachyons.min.css';
+@import 'css/etta-custom.css'; */
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,700');
+@import 'css/etta.min.css';
 
 /* to combine and minify these files, run:
+
+cleancss -o ./src/css/etta.min.css ./src/css/tachyons.min.css ./src/css/etta-custom.css
+
+NPM SCRIPT THIS PLS
+
 
 */

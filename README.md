@@ -4,7 +4,7 @@ Front-end design system for 5ervice, the localised open innovation platform.
 ## Getting Started
 You might want to [go here]()
 
-```sh
+``
 git clone https://github.com/lorcanblake/etta.git
 cd etta
 npm install
