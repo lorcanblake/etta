@@ -9,6 +9,7 @@ git clone https://github.com/lorcanblake/etta.git
 cd etta
 npm install
 ng serve --open
+
 ``
 
 ** link to Etta build repo **
@@ -28,7 +29,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Editing Etta
 
 * Add your changes to `etta-custom.css` 
-* Run `npm css --min` to update `etta.min.css`
+* Run `npm etta` to update `etta.min.css`
 
 ## Running unit tests
 

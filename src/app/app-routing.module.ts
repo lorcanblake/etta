@@ -13,19 +13,23 @@ const routes: Routes = [
   },
   {
     path: 'styleguide',
-    component: StyleguideComponent
+    component: StyleguideComponent,
+    pathMatch: 'prefix'
   },
   {
     path: 'glossary',
-    component: GlossaryComponent
+    component: GlossaryComponent,
+    pathMatch: 'prefix'
   },
   {
     path: 'components',
-    component: ComponentsComponent
+    component: ComponentsComponent,
+    pathMatch: 'prefix'
   },
   {
     path: 'examples',
-    component: ExamplesComponent
+    component: ExamplesComponent,
+    pathMatch: 'prefix'
   }
 
 ];
