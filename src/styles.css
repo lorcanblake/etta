@@ -1,26 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+/* Import Tachyons and Etta */
 
 @import 'css/tachyons.min.css';
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,700');
+@import 'css/etta-custom.css';
 
-.e-sans-serif{
-    font-family: 'Merriweather Sans', 'Source Sans Pro','PT Sans','Calibri','Open Sans', -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif
-}
+/* to combine and minify these files, run:
 
-.e-serif{
-    font-family: 'Merriweather', 'PT Serif', georgia, times, serif;
-}
-
-.e-shadow{
-    box-shadow: 0 0 30px rgba(0,0,0,.15);
-}
-
-/* .e-rotate{ 
-    -webkit-transition: -webkit-transform .8s ease-in-out; 
-    transition: transform .8s ease-in-out; 
-}
-.e-rotate:hover { 
-    -webkit-transform: rotate(360deg); 
-    transform: rotate(360deg); 
-} */
-
+*/

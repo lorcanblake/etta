@@ -1,0 +1,95 @@
+/* Etta specific styles */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,700');
+
+:root{
+    --e-sans-serif: 'Merriweather Sans', 'Source Sans Pro','PT Sans','Calibri','Open Sans', -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    --e-serif: 'Merriweather', 'PT Serif', georgia, times, serif;
+
+    --e-pink: #fe29c7;
+    --e-navy: #2d3740;
+    --e-green: #3dac26;
+
+    --e-shadow: 0 0 30px rgba(0,0,0,.15);
+
+}
+
+/* Typography */
+
+.sans-serif{
+    font-family: var(--e-sans-serif);
+}
+
+.serif{
+    font-family: var(--e-serif);
+}
+
+/* Color */
+
+/* base incl. hovers and focus */
+
+.green, .hover-green:hover,
+.hover-green:focus{
+    color: var(--e-green);
+}
+
+.navy, .hover-navy:hover,
+.hover-navy:focus{
+    color: var(--e-navy);
+}
+
+.pink, .hover-pink:hover,
+.hover-pink:focus{
+    color: var(--e-pink);
+}
+
+/* background incl. hovers and focus */
+
+.bg-green, .hover-bg-green:hover,
+.hover-bg-green:focus{
+    background-color: var(--e-green);
+}
+
+.bg-navy, .hover-bg-navy:hover,
+.hover-bg-navy:focus{
+    background-color: var(--e-navy);
+}
+
+.bg-pink, .hover-bg-pink:hover,
+.hover-bg-pink:focus{
+    background-color: var(--e-pink);
+}
+
+/* borders */
+
+.b--green{
+    border-color: var(--e-green);
+}
+
+.b--navy{
+    border-color: var(--e-navy);
+}
+
+.b--pink{
+    border-color: var(--e-pink);
+}
+
+/* Shading */
+
+.shadow{
+    -webkit-box-shadow: var(--e-shadow);
+    -moz-box-shadow:  var(--e-shadow);
+    box-shadow: var(--e-shadow);
+}
+
+/* animation */ 
+
+/* .rotate{ 
+    -webkit-transition: -webkit-transform .8s ease-in-out; 
+    transition: transform .8s ease-in-out; 
+}
+    .rotate:hover { 
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); 
+} */
+

@@ -1,8 +1,15 @@
 # Etta
 Front-end design system for 5ervice, the localised open innovation platform.
 
-## Extending Etta
+## Getting Started
 You might want to [go here]()
+
+```sh
+git clone https://github.com/lorcanblake/etta.git
+cd etta
+npm install
+ng serve --open
+``
 
 ** link to Etta build repo **
 
