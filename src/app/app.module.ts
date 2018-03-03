@@ -12,9 +12,10 @@ import { StyleguideComponent } from './styleguide/styleguide.component';
 import { StartComponent } from './home/start/start.component';
 import { ExamplesComponent } from './examples/examples.component';
 import { InterfaceAComponent } from './examples/interface-a/interface-a.component';
-import { InterfaceBComponent } from './examples/interface-b/interface-b.component';
 import { PublicComponent } from './examples/interface-a/public/public.component';
-import { VendorComponent } from './examples/interface-b/vendor/vendor.component';
+import { VendorComponent } from './examples/interface-a/vendor/vendor.component';
+import { IconsModule } from './icons/icons.module';
+
 
 
 
@@ -29,13 +30,13 @@ import { VendorComponent } from './examples/interface-b/vendor/vendor.component'
     StartComponent,
     ExamplesComponent,
     InterfaceAComponent,
-    InterfaceBComponent,
     PublicComponent,
     VendorComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IconsModule
   ],
   providers: [
     Title
