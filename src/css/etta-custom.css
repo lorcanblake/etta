@@ -14,14 +14,15 @@
 
 }
 
-/* Typography */
+/* Animation */ 
 
-.sans-serif{
-    font-family: var(--e-sans-serif);
+.rotate{ 
+    -webkit-transition: -webkit-transform .8s ease-in-out; 
+    transition: transform .8s ease-in-out; 
 }
-
-.serif{
-    font-family: var(--e-serif);
+.rotate:hover { 
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); 
 }
 
 /* Color */
@@ -82,14 +83,22 @@
     box-shadow: var(--e-shadow);
 }
 
-/* animation */ 
+/* Spacing */
 
-.rotate{ 
-    -webkit-transition: -webkit-transform .8s ease-in-out; 
-    transition: transform .8s ease-in-out; 
-}
-.rotate:hover { 
-    -webkit-transform: rotate(360deg); 
-    transform: rotate(360deg); 
+.w32{
+    width: 32px !important;
 }
 
+.h32{
+    height: 32px !important;
+}
+
+/* Typography */
+
+.sans-serif{
+    font-family: var(--e-sans-serif);
+}
+
+.serif{
+    font-family: var(--e-serif);
+}

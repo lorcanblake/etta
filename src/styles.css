@@ -1,8 +1,21 @@
-/* Import Tachyons and Etta */
+/* During development import: 
+    tachyons
+    etta-custom
+*/
 
 @import 'css/tachyons.min.css';
 @import 'css/etta-custom.css';
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,700');
+/* For production builds
 
-/* @import 'css/etta.min.css'; */
+1. run: cleancss -o ./src/css/etta.min.css ./src/css/tachyons.min.css ./src/css/etta-custom.css
+2. import: 
+    etta.min.css
+    fonts 
+*/
+
+/* 
+    @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,700');
+    @import 'css/etta.min.css'; 
+    
+*/
