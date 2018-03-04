@@ -3,10 +3,10 @@
     etta-custom
 */
 
-@import 'css/tachyons.min.css';
-@import 'css/etta-custom.css';
+/* @import 'css/tachyons.min.css';
+@import 'css/etta-custom.css'; */
 
-/* For production builds
+/* For staging/production builds
 
 1. run: cleancss -o ./src/css/etta.min.css ./src/css/tachyons.min.css ./src/css/etta-custom.css
 2. import: 
@@ -14,8 +14,7 @@
     fonts 
 */
 
-/* 
-    @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,700');
-    @import 'css/etta.min.css'; 
-    
-*/
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,700');
+@import 'css/etta.min.css'; 
+
