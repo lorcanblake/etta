@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ComponentsComponent } from './components/components.component';
-import { GlossaryComponent } from './glossary/glossary.component';
-import { StyleguideComponent } from './styleguide/styleguide.component';
-import { ExamplesComponent } from './examples/examples.component';
+import { StyleguideComponent } from './styleguide/styleguide.component';;
+import { PatternsComponent } from './patterns/patterns.component';
+import { DemoComponent } from './demo/demo.component';
 
 const routes: Routes = [
   {
@@ -17,18 +17,18 @@ const routes: Routes = [
     pathMatch: 'prefix'
   },
   {
-    path: 'glossary',
-    component: GlossaryComponent,
-    pathMatch: 'prefix'
-  },
-  {
     path: 'components',
     component: ComponentsComponent,
     pathMatch: 'prefix'
   },
   {
-    path: 'examples',
-    component: ExamplesComponent,
+    path: 'patterns',
+    component: PatternsComponent,
+    pathMatch: 'prefix'
+  },
+  {
+    path: 'demo',
+    component: DemoComponent,
     pathMatch: 'prefix'
   }
 
