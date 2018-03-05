@@ -12,7 +12,8 @@ import { StartComponent } from './home/start/start.component';
 import { IconsModule } from './icons/icons.module';
 import { PatternsComponent } from './patterns/patterns.component';
 import { DemoComponent } from './demo/demo.component';
-
+import { AppConsumerComponent } from './demo/app-consumer/app-consumer.component';
+import { AppVendorComponent } from './demo/app-vendor/app-vendor.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,10 @@ import { DemoComponent } from './demo/demo.component';
     StyleguideComponent,
     StartComponent,
     PatternsComponent,
-    DemoComponent
+    DemoComponent,
+    AppConsumerComponent,
+    AppVendorComponent
+  
   ],
   imports: [
     BrowserModule,
