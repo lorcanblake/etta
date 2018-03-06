@@ -14,6 +14,11 @@ import { PatternsComponent } from './patterns/patterns.component';
 import { DemoComponent } from './demo/demo.component';
 import { AppConsumerComponent } from './demo/app-consumer/app-consumer.component';
 import { AppVendorComponent } from './demo/app-vendor/app-vendor.component';
+import { StyleguideNavComponent } from './styleguide/styleguide-nav/styleguide-nav.component';
+import { ComponentsNavComponent } from './components/components-nav/components-nav.component';
+import { PrimNavComponent } from './etta-lib/prim-nav/prim-nav.component';
+import { SecNavComponent } from './etta-lib/sec-nav/sec-nav.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +31,11 @@ import { AppVendorComponent } from './demo/app-vendor/app-vendor.component';
     PatternsComponent,
     DemoComponent,
     AppConsumerComponent,
-    AppVendorComponent
+    AppVendorComponent,
+    StyleguideNavComponent,
+    ComponentsNavComponent,
+    PrimNavComponent,
+    SecNavComponent
   
   ],
   imports: [
