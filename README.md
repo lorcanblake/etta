@@ -7,7 +7,6 @@ Front-end build system for Piwalo, the localised open innovation platform.
 * Run `npm etta` to update `etta.min.css`
 
 ## Getting Started
-You might want to [go here]()
 
 ```
 git clone https://github.com/lorcanblake/etta.git
