@@ -1,18 +1,21 @@
 # Etta
-Front-end design system for 5ervice, the localised open innovation platform.
+Front-end build system for Piwalo, the localised open innovation platform.
+
+## Editing Etta
+
+* Add your changes to `etta-custom.css` 
+* Run `npm etta` to update `etta.min.css`
 
 ## Getting Started
 You might want to [go here]()
 
-``
+```
 git clone https://github.com/lorcanblake/etta.git
 cd etta
 npm install
 ng serve --open
 
-``
-
-** link to Etta build repo **
+```
 
 ## Development server
 
@@ -25,11 +28,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Editing Etta
-
-* Add your changes to `etta-custom.css` 
-* Run `npm etta` to update `etta.min.css`
 
 ## Running unit tests
 
@@ -48,6 +46,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Built on [Tachyons](http://www.tachyons.io/) by Adam Morse 
 * [Feather](https://feathericons.com/) icons by Cole Bemis
 
-## License
 
-...
